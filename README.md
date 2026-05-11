@@ -19,7 +19,7 @@ WSL2 Ubuntu — servers are Linux, CI is Linux, Lambda is Linux. Eliminates "wor
 Node.js 22 LTS — active across AWS, Azure, and GCP Lambda runtimes through April 2027.
 
 🟢 **3. Installing Node.js using a version manager**
-Volta, nvm, or fnm — switch runtime versions per project without reinstalling; matches how CI and cloud pipelines pin versions.
+Volta, nvm, or fnm — switch Node.js versions per project without reinstalling. A `.nvmrc` file pins the version for the project; CI reads the same file via `actions/setup-node`, keeping local and pipeline versions in sync.
 
 🟢 **4. Configuring the IDE for Linux-based development**
 VS Code + WSL extension — edit Linux files from Windows with full IDE support, no file copying, no path translation issues.
