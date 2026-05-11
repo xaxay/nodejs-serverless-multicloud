@@ -92,6 +92,11 @@ Set breakpoints in TypeScript source and step through execution in the VS Code d
 🟢 **22. Running Lambda locally with SAM CLI**
 `sam local start-api` starts a local HTTP server running the handler inside the official Lambda Docker image — hit it with curl or a browser exactly as API Gateway would. Requires a container runtime — Podman or Rancher Desktop are the recommended enterprise-friendly options (both free, no licensing restrictions).
 
+### Bonus
+
+⭐ **Using Copilot to accelerate Node.js understanding for Python developers**
+Copilot as a learning companion — not just for generating code, but for building mental models. Ask Copilot to explain Node.js concepts in Python terms: how `async/await` differs between the two runtimes, why the event loop behaves differently, how Node.js modules map to Python imports, and what Python serverless patterns translate to in AWS Lambda, Azure Functions, and GCP Cloud Functions. Copilot can produce side-by-side Python vs TypeScript comparisons on demand, explain why a pattern works differently in Node.js, and answer "why does this behave differently than in Python?" in context. Turns unfamiliar behavior into understood behavior — faster than documentation alone.
+
 ---
 
 ## Course 2 — Advanced Node.js Ecosystem and Production Practices
