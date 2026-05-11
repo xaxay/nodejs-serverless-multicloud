@@ -94,8 +94,8 @@ Set breakpoints in TypeScript source and step through execution in the VS Code d
 
 ### Bonus
 
-⭐ **Using Copilot to accelerate Node.js understanding for Python developers**
-Copilot as a learning companion — not just for generating code, but for building mental models. Ask Copilot to explain Node.js concepts in Python terms: how `async/await` differs between the two runtimes, why the event loop behaves differently, how Node.js modules map to Python imports, and what Python serverless patterns translate to in AWS Lambda, Azure Functions, and GCP Cloud Functions. Copilot can produce side-by-side Python vs TypeScript comparisons on demand, explain why a pattern works differently in Node.js, and answer "why does this behave differently than in Python?" in context. Turns unfamiliar behavior into understood behavior — faster than documentation alone.
+⭐ **Using Copilot to learn Node.js as a Python developer**
+How to use Copilot as a personal learning companion — asking it to explain Node.js and serverless concepts in Python terms, compare patterns side by side, and answer "why does this work differently than in Python?" in the context of your own code. Personalized to each developer's questions and gaps.
 
 ---
 
