@@ -19,7 +19,7 @@ WSL2 Ubuntu — servers are Linux, CI is Linux, Lambda is Linux. Eliminates "wor
 Node.js 22 LTS — active across AWS, Azure, and GCP Lambda runtimes through April 2027.
 
 🟢 **3. Installing Node.js using a version manager**
-Volta, nvm, or fnm — install and switch Node.js versions per project without reinstalling globally. Covers how Node.js version is defined for GitHub CI.
+Volta, nvm, or fnm — install and switch Node.js versions per project without reinstalling globally.
 
 🟢 **4. Configuring the IDE for Linux-based development**
 VS Code + WSL extension — edit Linux files from Windows with full IDE support, no file copying, no path translation issues.
@@ -121,7 +121,7 @@ Each area can be delivered first as a cross-cloud survey covering AWS, Azure, an
 - Serverless performance and cold start optimization — SDK client initialization, connection reuse across warm invocations. Applies to AWS Lambda, Azure Functions, and GCP Cloud Functions equally.
 
 **Advanced Security and CI/CD Enforcement**
-*Blocking the pipeline on high-severity CVEs, scoping audits to production dependencies, enforcing lockfile integrity across every developer and CI run. Compliance requirements in most enterprise environments, not optional improvements.*
+*Blocking the pipeline on high-severity CVEs, scoping audits to production dependencies, enforcing lockfile integrity across every developer and CI run. Covers how Node.js version is defined and pinned in GitHub CI. Compliance requirements in most enterprise environments, not optional improvements.*
 
 ---
 
