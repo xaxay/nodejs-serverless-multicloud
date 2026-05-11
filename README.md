@@ -90,7 +90,7 @@ Set breakpoints in TypeScript source and step through execution in the VS Code d
 ### Local Testing
 
 🟢 **22. Running Lambda locally with SAM CLI**
-`sam local start-api` starts a local HTTP server running the handler inside the official Lambda Docker image — hit it with curl or a browser exactly as API Gateway would. Requires Docker Desktop with WSL2 backend.
+`sam local start-api` starts a local HTTP server running the handler inside the official Lambda Docker image — hit it with curl or a browser exactly as API Gateway would. Requires Docker in WSL2 — Docker Engine installed directly in Ubuntu (free, no license required) or Rancher Desktop as an alternative to Docker Desktop.
 
 ---
 
